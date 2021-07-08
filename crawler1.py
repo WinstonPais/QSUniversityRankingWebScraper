@@ -40,7 +40,7 @@ def runCrawler():
             result.append(temp)
         except:
             continue
-    with open('result.txt', 'w') as json_file:
+    with open('result1.json', 'w') as json_file:
         json.dump(result, json_file)
 
 if __name__ == "__main__":
