@@ -9,17 +9,20 @@ def saveJsonFile(data):
         json.dump(data, json_file)
 
 def addToExtra():
+    # result = {
+    #     'coverImage' : '',
+    #     'AcceptanceRate' : '',
+    #     'ApplicationDeadline' : '',
+    #     'ApplicationFee' : '',
+    #     'NetPrice' : '',
+    #     'TotalAidAwardedPerYear' : '',
+    #     'StudentsReceivingAid' : '',
+    #     'MedianEarningsAfter6Years' : '',
+    #     'GraduationRate' : '',
+    #     'EmploymentRateAfter2Years' : ''
+    # }
     result = {
-        'coverImage' : '',
-        'AcceptanceRate' : '',
-        'ApplicationDeadline' : '',
-        'ApplicationFee' : '',
-        'NetPrice' : '',
-        'TotalAidAwardedPerYear' : '',
-        'StudentsReceivingAid' : '',
-        'MedianEarningsAfter6Years' : '',
-        'GraduationRate' : '',
-        'EmploymentRateAfter2Years' : ''
+        'coverImage' : ''
     }
 
     res = getJsonData()
